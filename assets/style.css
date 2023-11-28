@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+ul{
+    margin-bottom: 20px;
+}
+
+li {
+    margin-top: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.to-list {
+    margin: 0 auto;
+    width: 250px;
+    height: 100%;
+   
+}
+
+input {
+    width: 250px;
+    height: 30px;
+    /* border-radius: 10px; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: none;
+    padding: 4px;
+    margin-top: 20px;
+    outline: none;
+
+}
+
+.button {
+    color: #FFF;
+
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+
+    margin: 0 auto;
+    width: 201px;
+    margin-top: 20px;
+    display: flex;
+
+
+}
+
+
+button {
+    width: 210px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: #FFF;
+    margin-bottom: 20px;
+
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+
+}
+
+img{
+    cursor: pointer;
+}
+
+.border-div {
+    width: 47px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #9953F1;
+    position: absolute;
+    /* margin: -7px; */
+    margin: -4px;
+
+}
+
+p {
+    margin-top: 35%;
+}
+
+.cart {
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 10%;
+    width: 309px;
+    height: 100%;
+ 
+    border: 1px solid #C4C4C4;
+}
+
+
+.menu{
+    border: 1px solid #C4C4C4;
+    width: 400px;
+    /* height: 500px; */
+    height: 100%;
+    margin: 20px auto;
+    border-radius: 15px
+}
+
+.title{
+    width: 100%;
+    height: 31px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+ background-color: orange
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sort{
+   float: right;
+   margin-right: 52px;
+}
